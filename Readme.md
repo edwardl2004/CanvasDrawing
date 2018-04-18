@@ -4,6 +4,11 @@ The runnable class is org.edward.canvas.Application.
 
 This Application requires Java 8 to compile and run.
 
+To run the application, run maven under the project directory and compile it:
+mvn package
+then run the jar under the project directory:
+java -jar target/CanvasDrawing-0.0.1-SNAPSHOT.jar
+
 This application support the following commands:
 C w h:             create a new canvas;
 L x1 y1 x2 y2:     Draw a new horizontal or vertical line
